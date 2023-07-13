@@ -1,0 +1,50 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.options_list {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+
+.option_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+.option_btn {
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 250ms linear;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  &:hover,
+  &:focus {
+    background-color: #58c5e8;
+    border: none;
+  }
+}
+
+.statistic_item {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

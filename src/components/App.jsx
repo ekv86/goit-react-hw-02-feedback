@@ -1,3 +1,6 @@
+import { Feedback } from "./Feedback/Feedback";
+import { PhoneBook } from "./PhoneBook/PhoneBook";
+
 export const App = () => {
   return (
     <div
@@ -10,7 +13,8 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      <Feedback />
+      <PhoneBook />
     </div>
   );
 };
