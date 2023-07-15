@@ -34,7 +34,7 @@ export class Feedback extends Component {
       <div>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={['good', 'neutral', 'bad']}
+            options={Object.keys(this.state)}
             handleClick={this.handleClick}
           />
         </Section>
